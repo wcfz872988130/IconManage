@@ -1,0 +1,76 @@
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\FileManage.exe.config
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\FileManage.exe
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\FileManage.pdb
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\System.Net.Http.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\System.Windows.Interactivity.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\System.Windows.Interactivity.xml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\System.Net.Http.xml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\de\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\en\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\es\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\fr\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\it\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\ja\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\ko\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Release\zh-Hans\System.Net.Http.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\InputWindows.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\Resources\Brushes.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\InputWindows.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\MainWindow.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\UserControl_File.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\UserControl_Folder.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\App.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\FileManage_MarkupCompile.cache
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\FileManage_MarkupCompile.lref
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\App.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\MainWindow.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\Resources\DesignerItem.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\UserControl_File.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\UserControl_Folder.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\FileManage.g.resources
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\FileManage.Properties.Resources.resources
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\FileManage.csproj.GenerateResource.Cache
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\FileManage.exe
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\FileManage.pdb
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Release\FileManage.csprojResolveAssemblyReference.cache
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\FileManage.exe.config
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\FileManage.exe
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\FileManage.pdb
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\FileManage.exe
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\FileManage.pdb
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\System.Net.Http.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\System.Windows.Interactivity.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\System.Windows.Interactivity.xml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\System.Net.Http.xml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\de\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\en\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\es\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\fr\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\it\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\ja\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\ko\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Release\zh-Hans\System.Net.Http.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\FileManage.csprojResolveAssemblyReference.cache
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\InputWindows.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\Resources\Brushes.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\InputWindows.g.cs
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\MainWindow.g.cs
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\UserControl_File.g.cs
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\UserControl_Folder.g.cs
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\App.g.cs
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\FileManage_MarkupCompile.cache
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\FileManage_MarkupCompile.lref
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\App.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\MainWindow.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\Resources\DesignerItem.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\UserControl_File.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\UserControl_Folder.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\FileManage.g.resources
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\FileManage.Properties.Resources.resources
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\FileManage.csproj.GenerateResource.Cache

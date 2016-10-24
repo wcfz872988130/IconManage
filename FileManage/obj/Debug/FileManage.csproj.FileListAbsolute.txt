@@ -1,0 +1,206 @@
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\FileManage.exe.config
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\FileManage.exe
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\FileManage.pdb
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage.csprojResolveAssemblyReference.cache
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\MainWindow.g.cs
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\App.g.cs
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage_MarkupCompile.cache
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage_MarkupCompile.lref
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\MainWindow.baml
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage.g.resources
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage.Properties.Resources.resources
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage.csproj.GenerateResource.Cache
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage.exe
+D:\lcp9331\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage.pdb
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\FileManage.exe.config
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage.exe
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage.pdb
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\FileManage.exe
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\FileManage.pdb
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage.csprojResolveAssemblyReference.cache
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\MainWindow.g.cs
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\App.g.cs
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage_MarkupCompile.cache
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage_MarkupCompile.lref
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\MainWindow.baml
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage.g.resources
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage.Properties.Resources.resources
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\FileManage.csproj.GenerateResource.Cache
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\accdb.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\avi.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\bmp.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\css.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\docx_mac.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\docx_win.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\eml.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\eps.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\fla.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\gif.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\html.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\ind.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\ini.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\jpeg.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\jsf.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\midi.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\mov.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\mp3.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\mpeg.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\pdf.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\png.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\pptx_mac.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\pptx_win.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\proj.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\psd.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\pst.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\pub.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\rar.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\readme.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\settings.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\text.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\tiff.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\url.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\vsd.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\wav.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\wma.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\wmv.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\xlsx_mac.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\xlsx_win.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\zip.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\folder.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\bin\Debug\Resources\folder_green.png
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\UserControl_File.g.cs
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\UserControl_Folder.g.cs
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\UserControl_File.baml
+C:\Users\11580\Desktop\3D图书馆\3D图书馆系统\FileManage\FileManage\obj\Debug\UserControl_Folder.baml
+C:\Users\11580\Desktop\FileManage\FileManage\bin\Debug\FileManage.exe.config
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\FileManage.exe
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\FileManage.pdb
+C:\Users\11580\Desktop\FileManage\FileManage\bin\Debug\FileManage.exe
+C:\Users\11580\Desktop\FileManage\FileManage\bin\Debug\FileManage.pdb
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\FileManage.csprojResolveAssemblyReference.cache
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\MainWindow.g.cs
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\UserControl_File.g.cs
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\UserControl_Folder.g.cs
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\App.g.cs
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\FileManage_MarkupCompile.cache
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\FileManage_MarkupCompile.lref
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\MainWindow.baml
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\UserControl_File.baml
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\UserControl_Folder.baml
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\FileManage.g.resources
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\FileManage.Properties.Resources.resources
+C:\Users\11580\Desktop\FileManage\FileManage\obj\Debug\FileManage.csproj.GenerateResource.Cache
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\FileManage.exe.config
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\FileManage.exe
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\FileManage.pdb
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\FileManage.exe
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\FileManage.pdb
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\System.Net.Http.dll
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\System.Net.Http.xml
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\FileManage.csprojResolveAssemblyReference.cache
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\MainWindow.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\UserControl_File.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\UserControl_Folder.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\App.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\FileManage_MarkupCompile.cache
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\FileManage_MarkupCompile.lref
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\MainWindow.baml
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\UserControl_File.baml
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\UserControl_Folder.baml
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\FileManage.g.resources
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\FileManage.Properties.Resources.resources
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\FileManage.csproj.GenerateResource.Cache
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\Resources\DesignerItem.baml
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\App.baml
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\Resources\Brushes.baml
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\InputWindows.baml
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\obj\Debug\InputWindows.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage\FileManage\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\FileManage.exe.config
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\FileManage.exe
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\FileManage.pdb
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\FileManage.exe
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\FileManage.pdb
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\System.Net.Http.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\System.Net.Http.xml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\FileManage.csprojResolveAssemblyReference.cache
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\InputWindows.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\Resources\Brushes.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\InputWindows.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\MainWindow.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\UserControl_File.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\UserControl_Folder.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\App.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\FileManage_MarkupCompile.cache
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\FileManage_MarkupCompile.lref
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\App.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\MainWindow.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\Resources\DesignerItem.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\UserControl_File.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\UserControl_Folder.baml
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\FileManage.g.resources
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\FileManage.Properties.Resources.resources
+C:\Users\hzwangchao1\Desktop\FileManage - 副本\FileManage\obj\Debug\FileManage.csproj.GenerateResource.Cache
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\FileManage.exe.config
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\FileManage.exe
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\FileManage.pdb
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\FileManage.exe
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\FileManage.pdb
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\System.Net.Http.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\System.Net.Http.xml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\FileManage.csprojResolveAssemblyReference.cache
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\InputWindows.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\Resources\Brushes.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\InputWindows.g.cs
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\MainWindow.g.cs
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\UserControl_File.g.cs
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\UserControl_Folder.g.cs
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\App.g.cs
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\FileManage_MarkupCompile.cache
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\FileManage_MarkupCompile.lref
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\App.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\MainWindow.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\Resources\DesignerItem.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\UserControl_File.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\UserControl_Folder.baml
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\FileManage.g.resources
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\FileManage.Properties.Resources.resources
+C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Debug\FileManage.csproj.GenerateResource.Cache
