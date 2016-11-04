@@ -74,3 +74,6 @@ C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\UserControl_Folde
 C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\FileManage.g.resources
 C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\FileManage.Properties.Resources.resources
 C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\FileManage.csproj.GenerateResource.Cache
+C:\Users\hzwangchao1\Desktop\IconManage - 副本\FileManage\bin\Release\FileManage.exe.config
+C:\Users\hzwangchao1\Desktop\IconManage - 副本\FileManage\obj\Release\FileManage.exe
+C:\Users\hzwangchao1\Desktop\IconManage - 副本\FileManage\obj\Release\FileManage.pdb
