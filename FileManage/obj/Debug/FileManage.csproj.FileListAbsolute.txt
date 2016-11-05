@@ -242,3 +242,38 @@ C:\Users\hzwangchao1\Desktop\IconManage - 副本\FileManage\obj\Debug\UserContro
 C:\Users\hzwangchao1\Desktop\IconManage - 副本\FileManage\obj\Debug\FileManage.g.resources
 C:\Users\hzwangchao1\Desktop\IconManage - 副本\FileManage\obj\Debug\FileManage.Properties.Resources.resources
 C:\Users\hzwangchao1\Desktop\IconManage - 副本\FileManage\obj\Debug\FileManage.csproj.GenerateResource.Cache
+E:\IconManager\IconManage\FileManage\bin\Debug\FileManage.exe.config
+E:\IconManager\IconManage\FileManage\obj\Debug\FileManage.exe
+E:\IconManager\IconManage\FileManage\obj\Debug\FileManage.pdb
+E:\IconManager\IconManage\FileManage\bin\Debug\FileManage.exe
+E:\IconManager\IconManage\FileManage\bin\Debug\FileManage.pdb
+E:\IconManager\IconManage\FileManage\bin\Debug\System.Windows.Interactivity.dll
+E:\IconManager\IconManage\FileManage\bin\Debug\System.Windows.Interactivity.xml
+E:\IconManager\IconManage\FileManage\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\obj\Debug\FileManage.csprojResolveAssemblyReference.cache
+E:\IconManager\IconManage\FileManage\obj\Debug\InputWindows.baml
+E:\IconManager\IconManage\FileManage\obj\Debug\Resources\Brushes.baml
+E:\IconManager\IconManage\FileManage\obj\Debug\InputWindows.g.cs
+E:\IconManager\IconManage\FileManage\obj\Debug\MainWindow.g.cs
+E:\IconManager\IconManage\FileManage\obj\Debug\UserControl_File.g.cs
+E:\IconManager\IconManage\FileManage\obj\Debug\UserControl_Folder.g.cs
+E:\IconManager\IconManage\FileManage\obj\Debug\App.g.cs
+E:\IconManager\IconManage\FileManage\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\IconManager\IconManage\FileManage\obj\Debug\FileManage_MarkupCompile.cache
+E:\IconManager\IconManage\FileManage\obj\Debug\FileManage_MarkupCompile.lref
+E:\IconManager\IconManage\FileManage\obj\Debug\App.baml
+E:\IconManager\IconManage\FileManage\obj\Debug\MainWindow.baml
+E:\IconManager\IconManage\FileManage\obj\Debug\Resources\DesignerItem.baml
+E:\IconManager\IconManage\FileManage\obj\Debug\UserControl_File.baml
+E:\IconManager\IconManage\FileManage\obj\Debug\UserControl_Folder.baml
+E:\IconManager\IconManage\FileManage\obj\Debug\FileManage.g.resources
+E:\IconManager\IconManage\FileManage\obj\Debug\FileManage.Properties.Resources.resources
+E:\IconManager\IconManage\FileManage\obj\Debug\FileManage.csproj.GenerateResource.Cache

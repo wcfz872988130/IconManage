@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\hzwangchao1\Desktop\IconManage - 副本\FileManage\obj\Release\
+E:\IconManager\IconManage\FileManage\obj\Release\
 FileManage
 none
 false
 TRACE
-C:\Users\hzwangchao1\Desktop\IconManage - 副本\FileManage\App.xaml
+E:\IconManager\IconManage\FileManage\App.xaml
 6756873145
 
-35-505717718
-16-351596914
+35-1358349915
+151895968839
 InputWindows.xaml;MainWindow.xaml;Resources\DesignerItem.xaml;Resources\Brushes.xaml;UserControl_File.xaml;UserControl_Folder.xaml;
 
-False
+True
 

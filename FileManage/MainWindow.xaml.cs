@@ -111,13 +111,13 @@ namespace FileManage
             MyVirtualDesignerCanvas.Children.Clear();
             tvMain.Items.Clear();
             showtreeview.listItems.Clear();
-            XMLParse xmlparse = new XMLParse(path);
-            xmlparse.xmlFileName = path;
-            xmlparse.xmlPath = AppDomain.CurrentDomain.BaseDirectory + "Xml";
-          
-            if (xmlparse.JudgeParse())
+
+            csvParse.xmlFilePath = path;
+            csvParse.xmlFileName = path;
+            csvParse.xmlPath = AppDomain.CurrentDomain.BaseDirectory + "Xml";
+            if (csvParse.JudgeParse())
             {
-                MyVirtualDesignerCanvas.rootDesignerItem = xmlparse.parseXml();
+                MyVirtualDesignerCanvas.rootDesignerItem = csvParse.OpenCSV();
                 pathStack.virtualalbumpath.Clear();
                 pathStack.virtualalbumpath.Push(MyVirtualDesignerCanvas.rootDesignerItem);
                 MyVirtualDesignerCanvas.SetVirtualAlbumView(MyVirtualDesignerCanvas.rootDesignerItem);
@@ -128,6 +128,24 @@ namespace FileManage
             {
                 pathStack.virtualalbumpath.Push(MyVirtualDesignerCanvas.rootDesignerItem);
             }
+            
+            //XMLParse xmlparse = new XMLParse(path);
+            //xmlparse.xmlFileName = path;
+            //xmlparse.xmlPath = AppDomain.CurrentDomain.BaseDirectory + "Xml";
+          
+            //if (xmlparse.JudgeParse())
+            //{
+            //    MyVirtualDesignerCanvas.rootDesignerItem = xmlparse.parseXml();
+            //    pathStack.virtualalbumpath.Clear();
+            //    pathStack.virtualalbumpath.Push(MyVirtualDesignerCanvas.rootDesignerItem);
+            //    MyVirtualDesignerCanvas.SetVirtualAlbumView(MyVirtualDesignerCanvas.rootDesignerItem);
+            //    showtreeview.showTreeRoot = MyVirtualDesignerCanvas.rootDesignerItem;
+            //    showtreeview.CreateDynIconTreeView();
+            //}
+            //else
+            //{
+            //    pathStack.virtualalbumpath.Push(MyVirtualDesignerCanvas.rootDesignerItem);
+            //}
         }
 
         void ImportIcon(string pathString, string name)
@@ -236,10 +254,13 @@ namespace FileManage
 
         private void button_save_Click(object sender, RoutedEventArgs e)
         {
-            XMLParse xmlparse = new XMLParse();
-            xmlparse.xmlFileName = txtPath.Text;
-            xmlparse.xmlPath = AppDomain.CurrentDomain.BaseDirectory + "Xml";
-            xmlparse.writeXml(MyVirtualDesignerCanvas.rootDesignerItem);
+            //XMLParse xmlparse = new XMLParse();
+            //xmlparse.xmlFileName = txtPath.Text;
+            //xmlparse.xmlPath = AppDomain.CurrentDomain.BaseDirectory + "Xml";
+            //xmlparse.writeXml(MyVirtualDesignerCanvas.rootDesignerItem);
+            csvParse.xmlFileName = txtPath.Text;
+            csvParse.xmlPath = AppDomain.CurrentDomain.BaseDirectory + "Xml";
+            csvParse.SaveCSV(MyVirtualDesignerCanvas.rootDesignerItem);
         }
 
         private void button_import_picture_Click(object sender, RoutedEventArgs e)

@@ -94,7 +94,7 @@ namespace FileManage
         public bool Is_folder = false;
         public bool Is_Virtual_Folder = false;
         public List<DesignerItem> my_album = new List<DesignerItem>();
-        public DesignerItem myParentDesignerItem;
+        public DesignerItem myParentDesignerItem=null;
         public string realityAddress = null;
         public int MyAlbumID = 0;
         public delegate void doubleClickDelegate();

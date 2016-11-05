@@ -77,3 +77,38 @@ C:\Users\hzwangchao1\Desktop\IconManage\FileManage\obj\Release\FileManage.csproj
 C:\Users\hzwangchao1\Desktop\IconManage - 副本\FileManage\bin\Release\FileManage.exe.config
 C:\Users\hzwangchao1\Desktop\IconManage - 副本\FileManage\obj\Release\FileManage.exe
 C:\Users\hzwangchao1\Desktop\IconManage - 副本\FileManage\obj\Release\FileManage.pdb
+E:\IconManager\IconManage\FileManage\bin\Release\FileManage.exe.config
+E:\IconManager\IconManage\FileManage\obj\Release\FileManage.exe
+E:\IconManager\IconManage\FileManage\obj\Release\FileManage.pdb
+E:\IconManager\IconManage\FileManage\bin\Release\FileManage.exe
+E:\IconManager\IconManage\FileManage\bin\Release\FileManage.pdb
+E:\IconManager\IconManage\FileManage\bin\Release\System.Windows.Interactivity.dll
+E:\IconManager\IconManage\FileManage\bin\Release\System.Windows.Interactivity.xml
+E:\IconManager\IconManage\FileManage\bin\Release\de\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Release\en\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Release\es\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Release\fr\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Release\it\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Release\ja\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Release\ko\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\IconManager\IconManage\FileManage\obj\Release\FileManage.csprojResolveAssemblyReference.cache
+E:\IconManager\IconManage\FileManage\obj\Release\InputWindows.baml
+E:\IconManager\IconManage\FileManage\obj\Release\Resources\Brushes.baml
+E:\IconManager\IconManage\FileManage\obj\Release\InputWindows.g.cs
+E:\IconManager\IconManage\FileManage\obj\Release\MainWindow.g.cs
+E:\IconManager\IconManage\FileManage\obj\Release\UserControl_File.g.cs
+E:\IconManager\IconManage\FileManage\obj\Release\UserControl_Folder.g.cs
+E:\IconManager\IconManage\FileManage\obj\Release\App.g.cs
+E:\IconManager\IconManage\FileManage\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\IconManager\IconManage\FileManage\obj\Release\FileManage_MarkupCompile.cache
+E:\IconManager\IconManage\FileManage\obj\Release\FileManage_MarkupCompile.lref
+E:\IconManager\IconManage\FileManage\obj\Release\App.baml
+E:\IconManager\IconManage\FileManage\obj\Release\MainWindow.baml
+E:\IconManager\IconManage\FileManage\obj\Release\Resources\DesignerItem.baml
+E:\IconManager\IconManage\FileManage\obj\Release\UserControl_File.baml
+E:\IconManager\IconManage\FileManage\obj\Release\UserControl_Folder.baml
+E:\IconManager\IconManage\FileManage\obj\Release\FileManage.g.resources
+E:\IconManager\IconManage\FileManage\obj\Release\FileManage.Properties.Resources.resources
+E:\IconManager\IconManage\FileManage\obj\Release\FileManage.csproj.GenerateResource.Cache

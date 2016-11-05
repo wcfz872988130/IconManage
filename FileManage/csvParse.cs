@@ -1,64 +1,111 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.IO;
+using System.Linq;
+using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
+using System.Windows;
+using System.Windows.Media;
 using System.Text;
+using System.Xml;
+using System.IO;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+using System.Threading.Tasks;
+using System.ComponentModel;
 using System.Data;
 
 namespace FileManage
 {
     public class csvParse
     {
-        public static void SaveCSV(DataTable dt, string fullPath)//table数据写入csv
+        public static string xmlFilePath;
+        public static string xmlFileName;
+        public static string xmlPath;
+        private static string assembleName;
+        public static Dictionary<string,DesignerItem> pair_name_designerItem = new Dictionary<string,DesignerItem>();
+        public static void SaveCSV(DesignerItem root)
         {
-            System.IO.FileInfo fi = new System.IO.FileInfo(fullPath);
-            if (!fi.Directory.Exists)
+            try
             {
-                fi.Directory.Create();
-            }
-            System.IO.FileStream fs = new System.IO.FileStream(fullPath, System.IO.FileMode.Create,
-                System.IO.FileAccess.Write);
-            System.IO.StreamWriter sw = new System.IO.StreamWriter(fs, System.Text.Encoding.UTF8);
-            string data = "";
-
-            for (int i = 0; i < dt.Columns.Count; i++)//写入列名
-            {
-                data += dt.Columns[i].ColumnName.ToString();
-                if (i < dt.Columns.Count - 1)
+                xmlFileName = xmlFileName.Replace("icon", "*");
+                string[] tempName = xmlFileName.Split('*');
+                string[] xmlName = xmlFileName.Split('\\');
+                assembleName = xmlName[xmlName.Length - 2];
+                xmlFileName = xmlPath + "\\" + assembleName + ".csv";
+                if (File.Exists(xmlFileName))
                 {
-                    data += ",";
+                    File.Delete(xmlFileName);
                 }
+                System.IO.FileStream fs = new System.IO.FileStream(xmlFileName, System.IO.FileMode.Create,
+        System.IO.FileAccess.Write);
+                System.IO.StreamWriter sw = new System.IO.StreamWriter(fs, System.Text.Encoding.UTF8);
+                SaveAlbum(root, sw);
+                sw.Close();
+                fs.Close();
+                MessageBox.Show("保存成功");
             }
-            sw.WriteLine(data);
-
-            for (int i = 0; i < dt.Rows.Count; i++) //写入各行数据
+            catch(Exception e) 
             {
-                data = "";
-                for (int j = 0; j < dt.Columns.Count; j++)
-                {
-                    string str = dt.Rows[i][j].ToString();
-                    str = str.Replace("\"", "\"\"");//替换英文冒号 英文冒号需要换成两个冒号
-                    if (str.Contains(",") || str.Contains("\"")
-                        || str.Contains("\r") || str.Contains("\n")) //含逗号 冒号 换行符的需要放到引号中
-                    {
-                        str = string.Format("\"{0}\"", str);
-                    }
-
-                    data += str;
-                    if (j < dt.Columns.Count - 1)
-                    {
-                        data += ",";
-                    }
-                }
-                sw.WriteLine(data);
+                MessageBox.Show("保存失败:" + e.Message);
             }
-            sw.Close();
-            fs.Close();
         }
-        public static DataTable OpenCSV(string filePath)//从csv读取数据返回table
+        public static void SaveAlbum(DesignerItem root, System.IO.StreamWriter sw)
         {
-            System.Text.Encoding encoding = GetType(filePath); //Encoding.ASCII;//
-            DataTable dt = new DataTable();
-            System.IO.FileStream fs = new System.IO.FileStream(filePath, System.IO.FileMode.Open, 
+            for (int i = 0; i < root.my_album.Count;++i )
+            {               
+                HeaderedContentControl iit = root.my_album[i].Content as HeaderedContentControl;
+                if (root.my_album[i].Is_Virtual_Folder)
+                {
+                    //pair_name_designerItem[name] = root.my_album[i];
+                    if(root.my_album[i].my_album.Count>0)
+                    {
+                        SaveAlbum(root.my_album[i],sw);
+                    }
+                }
+                else
+                {
+                    string data = "";
+                    string uup = root.my_album[i].realityAddress;
+                    HeaderedContentControl iiit = iit.Header as HeaderedContentControl;
+                    MyTextBox textbox = iiit.Content as MyTextBox;
+                    string comment = textbox.Text;
+                    data += uup+","+comment+",";
+                    Stack<string> AlbumName = new Stack<string>();
+                    DesignerItem tempRoot = root;
+                    while (tempRoot.myParentDesignerItem != null)
+                    {
+                        HeaderedContentControl newalbumiit = tempRoot.Content as HeaderedContentControl;
+                        MyTextBox newiitextbox = newalbumiit.Content as MyTextBox;
+                        string name = newiitextbox.Text;
+                        AlbumName.Push(name);
+                        tempRoot = tempRoot.myParentDesignerItem;
+                    }
+                    while(AlbumName.Count!=0)
+                    {
+                        data += AlbumName.Peek() + ",";
+                        AlbumName.Pop();
+                    }
+                    sw.WriteLine(data);
+                }
+            }
+            return;
+        }
+        public static DesignerItem OpenCSV()
+        {
+            DesignerItem MainAlbum = new DesignerItem();
+            string tName = xmlFileName.Replace("icon", "*");
+            string[] tempName = tName.Split('*');
+            string[] xmlName = xmlFileName.Split('\\');
+            assembleName = xmlName[xmlName.Length - 2];
+            xmlFileName = xmlPath + "\\" + assembleName + ".csv";
+
+            System.Text.Encoding encoding = GetType(xmlFileName); //Encoding.ASCII;//
+            //DataTable dt = new DataTable();
+            System.IO.FileStream fs = new System.IO.FileStream(xmlFileName, System.IO.FileMode.Open, 
             System.IO.FileAccess.Read);
 
             System.IO.StreamReader sr = new System.IO.StreamReader(fs, encoding);
@@ -67,47 +114,93 @@ namespace FileManage
             string strLine = "";
             //记录每行记录中的各字段内容
             string[] aryLine = null;
-            string[] tableHead = null;
+            //string[] tableHead = null;
             //标示列数
             int columnCount = 0;
             //标示是否是读取的第一行
-            bool IsFirst = true;
+            //bool IsFirst = true;
             //逐行读取CSV中的数据
+            //int csvLine = sr.ReadToEnd().Split('\n').Length;
+
             while ((strLine = sr.ReadLine()) != null)
             {
-                if (IsFirst == true)
-                {
-                    tableHead = strLine.Split(',');
-                    IsFirst = false;
-                    columnCount = tableHead.Length;
-                    //创建列
-                    for (int i = 0; i < columnCount; i++)
-                    {
-                        DataColumn dc = new DataColumn(tableHead[i]);
-                        dt.Columns.Add(dc);
-                    }
-                }
-                else
-                {
-                    aryLine = strLine.Split(',');
-                    DataRow dr = dt.NewRow();
-                    for (int j = 0; j < columnCount; j++)
-                    {
-                        dr[j] = aryLine[j];
-                    }
-                    dt.Rows.Add(dr);
-                }
-            }
-            if (aryLine != null && aryLine.Length > 0)
-            {
-                dt.DefaultView.Sort = tableHead[0] + " " + "asc";
-            }
+                aryLine = strLine.Split(',');
+                
+                columnCount = aryLine.Length;
 
+                DesignerItem newItem = null;
+                for (int j = 2; j < columnCount; ++j)
+                {
+                    string albumName = aryLine[j];
+                    if(aryLine[2]=="")
+                    {
+                        newItem = MainAlbum;
+                        break;
+                    }
+                    if(albumName=="")
+                    {
+                        break;
+                    }
+                    if (pair_name_designerItem.ContainsKey(albumName))
+                    {
+                        newItem = pair_name_designerItem[albumName];
+                        continue;
+                    }
+                    else
+                    {
+                        HeaderedContentControl headcontent = AddImage.AddAlbum(albumName);
+                        DesignerItem item = new DesignerItem();
+                        item.Content = headcontent;
+                        item.Is_Virtual_Folder = true;
+                        item.canvas_real_album = false;
+                        pair_name_designerItem[albumName] = item;
+                        if (newItem != null)
+                        {
+                            newItem.my_album.Add(item);
+                            item.myParentDesignerItem = newItem;
+                        }
+                        newItem = item;
+                    }
+                }
+                string comment = aryLine[1];
+                string IconName = aryLine[0];
+                string finalName = xmlFilePath + "\\" + IconName;
+                if (File.Exists(finalName))
+                {
+                    HeaderedContentControl ddscontent = AddImage.AddImageandText(finalName, true, comment);
+                    DesignerItem item = new DesignerItem();
+                    item.realityAddress = IconName;
+                    item.Content = ddscontent;
+                    item.canvas_real_album = false;
+                    newItem.my_album.Add(item);
+                }
+            }
             sr.Close();
             fs.Close();
-            return dt;
+            
+            foreach (KeyValuePair<string, DesignerItem> pair in pair_name_designerItem)
+            {
+                if (pair.Value.myParentDesignerItem == null)
+                {
+                    MainAlbum.my_album.Add(pair.Value);
+                    pair.Value.myParentDesignerItem = MainAlbum;
+                }
+            }
+            return MainAlbum;
         }
-
+        public static bool JudgeParse()
+        {
+            string tName = xmlFileName.Replace("icon", "*");
+            string[] tempName = tName.Split('*');
+            string[] xmlName = xmlFileName.Split('\\');
+            assembleName = xmlName[xmlName.Length - 2];
+            string xml_Path = xmlPath + "\\" + assembleName + ".csv";
+            if (File.Exists(xml_Path))
+            {
+                return true;
+            }
+            return false;
+        }
 
         public static System.Text.Encoding GetType(string FILE_NAME)
         {
