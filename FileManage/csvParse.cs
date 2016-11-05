@@ -2,176 +2,193 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Data;
 
 namespace FileManage
 {
-    public class CsvRow : List<string>
+    public class csvParse
     {
-        public string LineText { get; set; }
-    }
-    public class CsvFileWriter : StreamWriter
-    {
-        public CsvFileWriter(Stream stream)
-            : base(stream)
+        public static void SaveCSV(DataTable dt, string fullPath)//table数据写入csv
         {
-        }
-
-        public CsvFileWriter(string filename)
-            : base(filename)
-        {
-        }
-
-        /// <summary>
-        /// Writes a single row to a CSV file.
-        /// </summary>
-        /// <param name="row">The row to be written</param>
-        public void WriteRow(CsvRow row)
-        {
-            StringBuilder builder = new StringBuilder();
-            bool firstColumn = true;
-            foreach (string value in row)
+            System.IO.FileInfo fi = new System.IO.FileInfo(fullPath);
+            if (!fi.Directory.Exists)
             {
-                // Add separator if this isn't the first value
-                if (!firstColumn)
-                    builder.Append(',');
-                // Implement special handling for values that contain comma or quote
-                // Enclose in quotes and double up any double quotes
-                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
-                    builder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
-                else
-                    builder.Append(value);
-                firstColumn = false;
+                fi.Directory.Create();
             }
-            row.LineText = builder.ToString();
-            WriteLine(row.LineText);
-        }
-    }
+            System.IO.FileStream fs = new System.IO.FileStream(fullPath, System.IO.FileMode.Create,
+                System.IO.FileAccess.Write);
+            System.IO.StreamWriter sw = new System.IO.StreamWriter(fs, System.Text.Encoding.UTF8);
+            string data = "";
 
-    /// <summary>
-    /// Class to read data from a CSV file
-    /// </summary>
-    public class CsvFileReader : StreamReader
-    {
-        public CsvFileReader(Stream stream)
-            : base(stream)
+            for (int i = 0; i < dt.Columns.Count; i++)//写入列名
+            {
+                data += dt.Columns[i].ColumnName.ToString();
+                if (i < dt.Columns.Count - 1)
+                {
+                    data += ",";
+                }
+            }
+            sw.WriteLine(data);
+
+            for (int i = 0; i < dt.Rows.Count; i++) //写入各行数据
+            {
+                data = "";
+                for (int j = 0; j < dt.Columns.Count; j++)
+                {
+                    string str = dt.Rows[i][j].ToString();
+                    str = str.Replace("\"", "\"\"");//替换英文冒号 英文冒号需要换成两个冒号
+                    if (str.Contains(",") || str.Contains("\"")
+                        || str.Contains("\r") || str.Contains("\n")) //含逗号 冒号 换行符的需要放到引号中
+                    {
+                        str = string.Format("\"{0}\"", str);
+                    }
+
+                    data += str;
+                    if (j < dt.Columns.Count - 1)
+                    {
+                        data += ",";
+                    }
+                }
+                sw.WriteLine(data);
+            }
+            sw.Close();
+            fs.Close();
+        }
+        public static DataTable OpenCSV(string filePath)//从csv读取数据返回table
         {
+            System.Text.Encoding encoding = GetType(filePath); //Encoding.ASCII;//
+            DataTable dt = new DataTable();
+            System.IO.FileStream fs = new System.IO.FileStream(filePath, System.IO.FileMode.Open, 
+            System.IO.FileAccess.Read);
+
+            System.IO.StreamReader sr = new System.IO.StreamReader(fs, encoding);
+
+            //记录每次读取的一行记录
+            string strLine = "";
+            //记录每行记录中的各字段内容
+            string[] aryLine = null;
+            string[] tableHead = null;
+            //标示列数
+            int columnCount = 0;
+            //标示是否是读取的第一行
+            bool IsFirst = true;
+            //逐行读取CSV中的数据
+            while ((strLine = sr.ReadLine()) != null)
+            {
+                if (IsFirst == true)
+                {
+                    tableHead = strLine.Split(',');
+                    IsFirst = false;
+                    columnCount = tableHead.Length;
+                    //创建列
+                    for (int i = 0; i < columnCount; i++)
+                    {
+                        DataColumn dc = new DataColumn(tableHead[i]);
+                        dt.Columns.Add(dc);
+                    }
+                }
+                else
+                {
+                    aryLine = strLine.Split(',');
+                    DataRow dr = dt.NewRow();
+                    for (int j = 0; j < columnCount; j++)
+                    {
+                        dr[j] = aryLine[j];
+                    }
+                    dt.Rows.Add(dr);
+                }
+            }
+            if (aryLine != null && aryLine.Length > 0)
+            {
+                dt.DefaultView.Sort = tableHead[0] + " " + "asc";
+            }
+
+            sr.Close();
+            fs.Close();
+            return dt;
         }
 
-        public CsvFileReader(string filename)
-            : base(filename)
+
+        public static System.Text.Encoding GetType(string FILE_NAME)
         {
+            System.IO.FileStream fs = new System.IO.FileStream(FILE_NAME, System.IO.FileMode.Open,
+                System.IO.FileAccess.Read);
+            System.Text.Encoding r = GetType(fs);
+            fs.Close();
+            return r;
         }
 
-        /// <summary>
-        /// Reads a row of data from a CSV file
-        /// </summary>
-        /// <param name="row"></param>
+        /// 通过给定的文件流，判断文件的编码类型
+        /// <param name="fs">文件流</param>
+        /// <returns>文件的编码类型</returns>
+        public static System.Text.Encoding GetType(System.IO.FileStream fs)
+        {
+            byte[] Unicode = new byte[] { 0xFF, 0xFE, 0x41 };
+            byte[] UnicodeBIG = new byte[] { 0xFE, 0xFF, 0x00 };
+            byte[] UTF8 = new byte[] { 0xEF, 0xBB, 0xBF }; //带BOM
+            System.Text.Encoding reVal = System.Text.Encoding.Default;
+
+            System.IO.BinaryReader r = new System.IO.BinaryReader(fs, System.Text.Encoding.Default);
+            int i;
+            int.TryParse(fs.Length.ToString(), out i);
+            byte[] ss = r.ReadBytes(i);
+            if (IsUTF8Bytes(ss) || (ss[0] == 0xEF && ss[1] == 0xBB && ss[2] == 0xBF))
+            {
+                reVal = System.Text.Encoding.UTF8;
+            }
+            else if (ss[0] == 0xFE && ss[1] == 0xFF && ss[2] == 0x00)
+            {
+                reVal = System.Text.Encoding.BigEndianUnicode;
+            }
+            else if (ss[0] == 0xFF && ss[1] == 0xFE && ss[2] == 0x41)
+            {
+                reVal = System.Text.Encoding.Unicode;
+            }
+            r.Close();
+            return reVal;
+        }
+
+        /// 判断是否是不带 BOM 的 UTF8 格式
+        /// <param name="data"></param>
         /// <returns></returns>
-        public bool ReadRow(CsvRow row)
+        private static bool IsUTF8Bytes(byte[] data)
         {
-            row.LineText = ReadLine();
-            if (String.IsNullOrEmpty(row.LineText))
-                return false;
-
-            int pos = 0;
-            int rows = 0;
-
-            while (pos < row.LineText.Length)
+            int charByteCounter = 1;　 //计算当前正分析的字符应还有的字节数
+            byte curByte; //当前分析的字节.
+            for (int i = 0; i < data.Length; i++)
             {
-                string value;
-
-                // Special handling for quoted field
-                if (row.LineText[pos] == '"')
+                curByte = data[i];
+                if (charByteCounter == 1)
                 {
-                    // Skip initial quote
-                    pos++;
-
-                    // Parse quoted value
-                    int start = pos;
-                    while (pos < row.LineText.Length)
+                    if (curByte >= 0x80)
                     {
-                        // Test for quote character
-                        if (row.LineText[pos] == '"')
+                        //判断当前
+                        while (((curByte <<= 1) & 0x80) != 0)
                         {
-                            // Found one
-                            pos++;
-
-                            // If two quotes together, keep one
-                            // Otherwise, indicates end of value
-                            if (pos >= row.LineText.Length || row.LineText[pos] != '"')
-                            {
-                                pos--;
-                                break;
-                            }
+                            charByteCounter++;
                         }
-                        pos++;
+                        //标记位首位若为非0 则至少以2个1开始 如:110XXXXX...........1111110X　
+                        if (charByteCounter == 1 || charByteCounter > 6)
+                        {
+                            return false;
+                        }
                     }
-                    value = row.LineText.Substring(start, pos - start);
-                    value = value.Replace("\"\"", "\"");
                 }
                 else
                 {
-                    // Parse unquoted value
-                    int start = pos;
-                    while (pos < row.LineText.Length && row.LineText[pos] != ',')
-                        pos++;
-                    value = row.LineText.Substring(start, pos - start);
-                }
-
-                // Add field to list
-                if (rows < row.Count)
-                    row[rows] = value;
-                else
-                    row.Add(value);
-                rows++;
-
-                // Eat up to and including next comma
-                while (pos < row.LineText.Length && row.LineText[pos] != ',')
-                    pos++;
-                if (pos < row.LineText.Length)
-                    pos++;
-            }
-            // Delete any unused items
-            while (row.Count > rows)
-                row.RemoveAt(rows);
-
-            // Return true if any columns read
-            return (row.Count > 0);
-        }
-    }
-    class csvParse
-    {
-        void WriteTest()
-        {
-            // Write sample data to CSV file
-            using (CsvFileWriter writer = new CsvFileWriter("WriteTest.csv"))
-            {
-                for (int i = 0; i < 100; i++)
-                {
-                    CsvRow row = new CsvRow();
-                    for (int j = 0; j < 5; j++)
-                        row.Add(String.Format("Column{0}", j));
-                    writer.WriteRow(row);
-                }
-            }
-        }
-
-        void ReadTest()
-        {
-            // Read sample data from CSV file
-            using (CsvFileReader reader = new CsvFileReader("ReadTest.csv"))
-            {
-                CsvRow row = new CsvRow();
-                while (reader.ReadRow(row))
-                {
-                    foreach (string s in row)
+                    //若是UTF-8 此时第一位必须为1
+                    if ((curByte & 0xC0) != 0x80)
                     {
-                        Console.Write(s);
-                        Console.Write(" ");
+                        return false;
                     }
-                    Console.WriteLine();
+                    charByteCounter--;
                 }
             }
+            if (charByteCounter > 1)
+            {
+                throw new Exception("非预期的byte格式");
+            }
+            return true;
         }
     }
 }

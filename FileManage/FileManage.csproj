@@ -80,6 +80,7 @@
     <Compile Include="AddImage.cs" />
     <Compile Include="Controls\DragThumb.cs" />
     <Compile Include="Controls\ResizeThumb.cs" />
+    <Compile Include="csvParse.cs" />
     <Compile Include="CustomComparer.cs" />
     <Compile Include="DDSImage.cs" />
     <Compile Include="DesignerCanvas.cs" />
